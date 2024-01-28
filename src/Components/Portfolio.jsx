@@ -29,32 +29,69 @@ const imageAltText = "Wooden coding workspace background";
  * An array of objects that will be used to display for your project
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */
-const projectList = [
+const projectListConverted = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Appointment Application",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "An appointment scheduling app that lets users set appointments, dates, and reminders, built with React and styled using Tailwind CSS.",
+    url: "https://reactjsdev24.ccbp.tech/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Emoji Game",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "A fun game featuring 12 emojis to test your memory and speed. Rearrange them as they shuffle with React and a sleek UI in Tailwind CSS.",
+    url: "https://reactjsdev25.ccbp.tech/",
   },
   {
-    title: "My Resume Site",
+    title: "Wikipedia Search",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "A fully functional Wikipedia search webpage built using React and Node.js, allowing users to search for information on Wikipedia.",
+    url: "https://newwikipedia1.ccbp.tech/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Todo List",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "A simple to-do list application for managing daily tasks, created with HTML, JavaScript, and a clean UI using Tailwind CSS.",
+    url: "https://to9.ccbp.tech/",
+  },
+  {
+    title: "Dev Blog",
+    description:
+      "A developer's blog webpage displaying a list of blogs with the ability to view detailed descriptions upon clicking.",
+    url: "https://reactjsdev22.ccbp.tech/blogs/1",
+  },
+  {
+    title: "Typing Test Game",
+    description:
+      "A typing test game challenging users to type a random text as quickly as possible, built using React and styled with Tailwind CSS.",
+    url: "https://tt2004.ccbp.tech/",
+  },
+  {
+    title: "Destiny Search",
+    description:
+      "Explore top travel destinations with a stylish webpage created using React and custom CSS.",
+    url: "https://reactjsdev9.ccbp.tech/",
+  },
+  {
+    title: "Food Munch Page",
+    description:
+      "A responsive food retail shop page with a mouth-watering display, built using HTML, CSS, and Bootstrap.",
+    url: "https://fm9.ccbp.tech/",
+  },
+  {
+    title: "Google Career Page",
+    description:
+      "A responsive clone of Google's career page showcasing job opportunities, designed using HTML, CSS, and Bootstrap.",
+    url: "https://gccbyvarma.ccbp.tech/",
+  },
+  {
+    title: "Guessing Game",
+    description:
+      "A number guessing game challenging users to guess a number between 1 and 100 with clues and minimal attempts, built with React and styled using Tailwind CSS.",
+    url: "https://gtn2.ccbp.tech/",
   },
 ];
+
 
 const Portfolio = () => {
   return (
